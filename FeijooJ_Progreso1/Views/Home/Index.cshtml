@@ -7,3 +7,58 @@
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     <img src="~/img/png1.jpg" class="d-block w-100 rounded shadow" alt="Imagen 3">
 </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio - Juan Feijoo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #info {
+            display: none;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #f0f8ff;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a mi página</h1>
+
+    <button onclick="mostrarInfo()">Ver mi información</button>
+
+    <div id="info">
+        <h2>Juan Feijoo</h2>
+        <p>Mi hobbie es jugar fútbol.</p>
+    </div>
+
+    <script>
+        function mostrarInfo() {
+          const info = document.getElementById('info');
+          info.style.display = info.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
+
