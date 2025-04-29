@@ -1,0 +1,7 @@
+﻿.meme {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
