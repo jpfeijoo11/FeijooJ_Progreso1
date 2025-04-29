@@ -17,7 +17,7 @@ namespace FeijooJ_Progreso1.Models
         
         
 
-        [MaxLength(20)]
+        
         public double ValorAPagar {  get; set; }
 
         public int IdentificacionCliente { get; set; }
