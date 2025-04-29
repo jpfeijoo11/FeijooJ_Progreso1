@@ -16,5 +16,6 @@ namespace FeijooJ_Progreso1.Data
 
         public DbSet<FeijooJ_Progreso1.Models.Cliente> Cliente { get; set; } = default!;
         public DbSet<FeijooJ_Progreso1.Models.Reserva> Reserva { get; set; } = default!;
+        public DbSet<FeijooJ_Progreso1.Models.PlanRecompensa> PlanRecompensa { get; set; } = default!;
     }
 }
