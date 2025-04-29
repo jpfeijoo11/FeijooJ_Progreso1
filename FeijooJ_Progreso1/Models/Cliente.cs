@@ -1,13 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace FeijooJ_Progreso1.Models
 {
     public class Cliente
     {
-        public string FeijooJ { get; set; }
+        public String FeijooJ {  get; set; }
         [Key]
         [MaxLength(10)]
         public int Id { get; set; }
+  
         
         [MaxLength(50)]
         public string Nombre { get; set; }

@@ -16,7 +16,7 @@ namespace FeijooJ_Progreso1.Migrations
                 {
                     Id = table.Column<int>(type: "int", maxLength: 10, nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FeijooJ = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FeijooJ = table.Column<string>(nullable: true),
                     Nombre = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Edad = table.Column<double>(type: "float", maxLength: 20, nullable: false),
                     SeHospedoAntes = table.Column<bool>(type: "bit", nullable: false),

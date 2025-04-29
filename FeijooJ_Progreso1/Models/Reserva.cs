@@ -9,6 +9,7 @@ namespace FeijooJ_Progreso1.Models
     public class Reserva
     {
         [Key]
+        
         public String FechaEntradaCliente { get; set; }
 
         
